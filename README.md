@@ -90,12 +90,12 @@ This project explores how effectively different machine learning models can pred
 ### Performance Evaluation Plot:
 A bar plot comparing the accuracy and ROC-AUC scores of various models:
 
-![Performance Evaluation - Kidney Disease Prediction](PE_kidney.jpeg)
+![Performance Evaluation - Kidney Disease Prediction](Images/PE_kidney.jpeg)
 
 ### ROC Curves:
 ROC curves showing the sensitivity vs. specificity for each model:
 
-![ROC - Kidney Disease Prediction](roc_kidney.jpeg)
+![ROC - Kidney Disease Prediction](Images/roc_kidney.jpeg)
 
 ## Example Prediction
 
