@@ -75,6 +75,18 @@ This project explores how effectively different machine learning models can pred
 
 ## Results
 
+### Model Accuracy Comparison:
+
+| **Model**              | **Training Accuracy (%)** | **Testing Accuracy (%)** | **ROC AUC (%)** |
+|------------------------|---------------------------|--------------------------|----------------|
+| Logistic Regression    | 89.69                     | 91.25                    | 90.80          |
+| KNN                    | 78.13                     | 63.75                    | 63.05          |
+| SVM                    | 98.75                     | 73.75                    | 74.04          |
+| Decision Tree (DT)     | 98.44                     | 97.50                    | 96.29          |
+| Random Forest          | 99.38                     | 97.50                    | 96.43          |
+| XGBoost                | 98.13                     | 97.50                    | 96.43          |
+| Gradient Boosting      | 100.00                    | 97.50                    | 96.43          |
+
 ### Performance Evaluation Plot:
 A bar plot comparing the accuracy and ROC-AUC scores of various models:
 
