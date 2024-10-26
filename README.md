@@ -32,8 +32,8 @@ This project explores how effectively different machine learning models can pred
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/Tanjim-Islam/Kidney-Disease-Prediction.git
-    cd Kidney-Disease-Prediction
+    git clone https://github.com/Tanjim-Islam/Kidney-Disease-Prediction-Using-Machine-Learning.git
+    cd Kidney-Disease-Prediction-Using-Machine-Learning
     ```
 
 2. **Install Dependencies:**
