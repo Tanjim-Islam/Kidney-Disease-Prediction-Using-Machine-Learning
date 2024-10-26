@@ -96,21 +96,3 @@ A bar plot comparing the accuracy and ROC-AUC scores of various models:
 ROC curves showing the sensitivity vs. specificity for each model:
 
 ![ROC - Kidney Disease Prediction](Images/roc_kidney.jpeg)
-
-## Example Prediction
-
-Below is a sample prediction using a saved Decision Tree model (`kidney.pkl`):
-
-```python
-import numpy as np
-import pickle
-
-model = pickle.load(open("kidney.pkl", 'rb'))
-input_data = (48,80,1.020,1,0,1,0,0,0,121,36,1.2,135,4.5,15.8,44,7800,5.2,1,1,0,1,0,0)
-reshaped_data = np.array(input_data).reshape(1, -1)
-
-prediction = model.predict(reshaped_data)
-if prediction[0] == 0:
-    print("The patient has chronic kidney disease.")
-else:
-    print("The patient does not have chronic kidney disease.")
