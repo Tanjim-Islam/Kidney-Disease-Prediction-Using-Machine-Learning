@@ -32,7 +32,7 @@ This project explores how effectively different machine learning models can pred
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/Kidney-Disease-Prediction.git
+    git clone https://github.com/Tanjim-Islam/Kidney-Disease-Prediction.git
     cd Kidney-Disease-Prediction
     ```
 
